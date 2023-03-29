@@ -1,0 +1,230 @@
+@import url(https://fonts.bunny.net/css?family=eagle-lake:400|lobster:400);
+
+
+body {
+    background-image: url(../Images/dark_wood.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(27, 16, 5);
+}
+
+header {
+    margin-top: 75px;  
+    margin-bottom: 75px;
+}
+
+.apropos {
+    max-width: 1000px;
+    margin: auto;
+    background-image: url(../Images/ricepaper_v3.png);
+    border-radius: 2px;
+    position: relative;
+    z-index: 0;
+}
+
+strong {
+    font-weight: bold;
+    color: rgb(8, 5, 2);
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: rgb(8, 5, 2);
+}
+
+.apropos h2 {
+    padding-left: 165px;
+    padding-top: 10px;
+    
+}
+
+.apropos p {
+    padding-left: 165px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+}
+
+h1 {
+    max-width: 1050px;
+    height: 65px;
+    margin: auto;
+    background-image: url(../Images/leaf-texturea.jpg);
+    background-repeat:inherit;
+    color: white;
+    font-family: 'Eagle Lake', handwriting;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+    box-shadow: -2px 5px 0px 1px black;
+    font-size: 3em;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15px;
+    z-index: 1;
+    margin-bottom: 5px;
+}
+
+.losange-photo {
+    max-width: 175px;
+    transform: rotate(45deg) translate(-72%, 0%);
+    overflow: hidden;
+    border: 8px solid black;
+    box-shadow: 5px 5px 0px 1px rgb(13, 145, 72);
+    border-radius: 2px;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 2;
+}
+    .losange-photo img {
+    max-width: 100%;
+    transform: rotate(-45deg) scale(1.42);
+    }
+
+section {
+        display: flex;
+        max-width: 1000px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+.gauche-vert {
+    background-image: url(../Images/leaf-textureb.jpg);
+    max-width: 35%;
+    border-radius: 2px;
+    
+}
+
+.gauche-vert p {
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    padding: 0 25px;
+    margin-bottom: 25px;
+    font-size: 1.2em;
+}
+
+.gauche-vert img {
+    height: 25px;
+    vertical-align: top;
+}
+
+.droite-blanc { 
+    background-image: url(../Images/ricepaper_v3.png);
+    max-width: 65%;
+    z-index: -1;
+    border-radius: 2px;
+    padding: 25px;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 10px black;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.classement {
+    display: flex;
+}
+
+.classement p {
+    width: 35%;
+}
+
+.classement img {
+    transform: translate(0%, -15%);
+}
+
+.stars-rouge {
+    filter: invert(44%) sepia(83%) saturate(7023%) hue-rotate(2deg) brightness(101%) contrast(104%) drop-shadow(1px 1px 1px black);
+}
+
+.stars-vert {
+    filter: invert(71%) sepia(11%) saturate(5121%) hue-rotate(58deg) brightness(99%) contrast(127%) drop-shadow(1px 1px 1px black);
+}
+
+.stars-jaune {
+    filter: invert(86%) sepia(71%) saturate(3745%) hue-rotate(358deg) brightness(107%) contrast(104%) drop-shadow(1px 1px 1px black);
+}
+
+.stars-jvert {
+    filter: invert(72%) sepia(55%) saturate(965%) hue-rotate(33deg) brightness(106%) contrast(109%) drop-shadow(1px 1px 1px black);
+}
+
+.contact {
+    display: flex;
+}
+
+.contact img {
+    filter: invert(99%) sepia(99%) saturate(1%) hue-rotate(111deg) brightness(109%) contrast(100%) drop-shadow(1px 2px 1px black);
+    padding-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    
+}
+
+.contact a {
+    transform: translate(0%, 5%);
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-size: 1.2em;
+}
+
+.contact a:hover {
+    color: rgb(250, 50, 00);
+}
+
+.Exp-Form {
+    display: flex;
+}
+
+h4, h5 {
+    font-weight: bold;
+    color: rgb(8, 5, 2);
+    margin-bottom: 5px;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.intitu {
+    width: 50%;
+}
+
+.descrip {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+
+.ligne {
+    border: 1px solid rgb(8, 5, 2);
+    width: 100%;
+    height: 1px;
+    background-color: rgb(8, 5, 2);
+    border-radius: 2px;
+    margin-top: 9px;
+}
+
+li {
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    padding: 0 25px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+ul {
+    margin-bottom: 25px;
+}
