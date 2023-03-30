@@ -235,22 +235,43 @@ ul {
 
 
 
-
 @media (max-width: 850px) {
-    .gauche-vert p {
-        padding-left: 10px;
+    header {
+        margin-top: 30px;  
+        margin-bottom: 30px;
+    }
+    
+    .gauche-vert {
+        max-width: 50%;
     }
 
-    .gauche-vert img {
-        height: 20px;
+    .droite-blanc {
+        max-width: 50%;
     }
 
-    .contact img {
-        padding-left: 10px;
+    .losange-photo {
+        max-width: 130px;
+        left: 105px;
+    }
+
+    .losange-photo img {
+        max-width: 100%;
+        transform: rotate(-45deg) scale(1.45);
+    }
+
+    h1 {
+        height: 55px;
+        font-size: 2.6em;
+    }
+
+    .apropos {
+        padding-left: 60px;
     }
 }
 
 @media (max-width: 650px) {
+    
+
     section {
         display: block;
     }
@@ -258,10 +279,44 @@ ul {
     .gauche-vert {
         max-width: 90%;
         margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: 25px;
     }
 
     .droite-blanc {
         max-width: 90%;
         margin: auto;
     }
+
+    .losange-photo {
+        max-width: 115px;
+        top: 50%;
+        left: 100px;
+    }
+
+    h1 {
+        height: 48px;
+        font-size: 2.3em;
+        }
+
+    .apropos {
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 400px) {
+    .losange-photo {
+        max-width: 95px;
+        top: 50%;
+        left: 80px;
+    }
+    h1 {
+        height: 40px;
+        font-size: 2em;
+        }
+
+    .apropos {
+        padding-left: 10px;
+    }
+
 }
