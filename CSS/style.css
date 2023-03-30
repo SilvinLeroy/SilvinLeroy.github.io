@@ -13,7 +13,7 @@ header {
 }
 
 .apropos {
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
     background-image: url(../Images/ricepaper_v3.png);
     border-radius: 2px;
@@ -49,10 +49,10 @@ h2 {
 }
 
 h1 {
-    max-width: 1050px;
+    max-width: 950px;
     height: 65px;
     margin: auto;
-    background-image: url(../Images/leaf-texturea.jpg);
+    background-image: url(../Images/leaf-textureab.jpg);
     background-repeat:inherit;
     color: white;
     font-family: 'Eagle Lake', handwriting;
@@ -67,7 +67,7 @@ h1 {
 }
 
 .losange-photo {
-    max-width: 175px;
+    max-width: 165px;
     transform: rotate(45deg) translate(-72%, 0%);
     overflow: hidden;
     border: 8px solid black;
@@ -84,21 +84,21 @@ h1 {
 
 section {
         display: flex;
-        max-width: 1000px;
+        max-width: 900px;
         margin: auto;
         margin-bottom: 50px;
     }
 
 .gauche-vert {
-    background-image: url(../Images/leaf-textureb.jpg);
-    max-width: 35%;
+    background-image: url(../Images/leaf-texturebb.jpg);
+    max-width: 40%;
     border-radius: 2px;
     
 }
 
 .gauche-vert p {
     color: white;
-    text-shadow: 1px 2px 2px black;
+    text-shadow: 1px 2px 1px black;
     padding: 0 25px;
     margin-bottom: 25px;
     font-size: 1.2em;
@@ -111,7 +111,7 @@ section {
 
 .droite-blanc { 
     background-image: url(../Images/ricepaper_v3.png);
-    max-width: 65%;
+    max-width: 60%;
     z-index: -1;
     border-radius: 2px;
     padding: 25px;
@@ -137,7 +137,7 @@ h3 {
 }
 
 .classement p {
-    width: 35%;
+    width: 30%;
 }
 
 .classement img {
@@ -145,19 +145,19 @@ h3 {
 }
 
 .stars-rouge {
-    filter: invert(44%) sepia(83%) saturate(7023%) hue-rotate(2deg) brightness(101%) contrast(104%) drop-shadow(1px 1px 1px black);
+    filter: invert(44%) sepia(83%) saturate(7023%) hue-rotate(2deg) brightness(101%) contrast(104%) drop-shadow(2px 2px 2px black);
 }
 
 .stars-vert {
-    filter: invert(71%) sepia(11%) saturate(5121%) hue-rotate(58deg) brightness(99%) contrast(127%) drop-shadow(1px 1px 1px black);
+    filter: invert(71%) sepia(11%) saturate(5121%) hue-rotate(58deg) brightness(99%) contrast(127%) drop-shadow(2px 2px 2px black);
 }
 
 .stars-jaune {
-    filter: invert(86%) sepia(71%) saturate(3745%) hue-rotate(358deg) brightness(107%) contrast(104%) drop-shadow(1px 1px 1px black);
+    filter: invert(86%) sepia(71%) saturate(3745%) hue-rotate(358deg) brightness(107%) contrast(104%) drop-shadow(2px 2px 2px black);
 }
 
 .stars-jvert {
-    filter: invert(72%) sepia(55%) saturate(965%) hue-rotate(33deg) brightness(106%) contrast(109%) drop-shadow(1px 1px 1px black);
+    filter: invert(72%) sepia(55%) saturate(965%) hue-rotate(33deg) brightness(106%) contrast(109%) drop-shadow(2px 2px 2px black);
 }
 
 .contact {
@@ -165,7 +165,7 @@ h3 {
 }
 
 .contact img {
-    filter: invert(99%) sepia(99%) saturate(1%) hue-rotate(111deg) brightness(109%) contrast(100%) drop-shadow(1px 2px 1px black);
+    filter: invert(99%) sepia(99%) saturate(1%) hue-rotate(111deg) brightness(109%) contrast(100%) drop-shadow(2px 2px 2px black);
     padding-left: 25px;
     margin-bottom: 25px;
     margin-right: 25px;
@@ -175,7 +175,7 @@ h3 {
 .contact a {
     transform: translate(0%, 5%);
     color: white;
-    text-shadow: 1px 2px 2px black;
+    text-shadow: 1px 2px 1px black;
     font-size: 1.2em;
 }
 
@@ -202,6 +202,10 @@ h5 {
     width: 50%;
 }
 
+.intitu p {
+    font-style: italic;
+}
+
 .descrip {
     width: 50%;
     margin-bottom: 15px;
@@ -219,7 +223,7 @@ h5 {
 
 li {
     color: white;
-    text-shadow: 1px 2px 2px black;
+    text-shadow: 1px 2px 1px black;
     padding: 0 25px;
     margin-bottom: 10px;
     font-size: 1.2em;
@@ -227,4 +231,37 @@ li {
 
 ul {
     margin-bottom: 25px;
+}
+
+
+
+
+@media (max-width: 850px) {
+    .gauche-vert p {
+        padding-left: 10px;
+    }
+
+    .gauche-vert img {
+        height: 20px;
+    }
+
+    .contact img {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    section {
+        display: block;
+    }
+
+    .gauche-vert {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .droite-blanc {
+        max-width: 90%;
+        margin: auto;
+    }
 }
