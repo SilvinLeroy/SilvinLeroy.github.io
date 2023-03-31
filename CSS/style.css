@@ -289,9 +289,14 @@ ul {
     }
 
     .losange-photo {
+        transform: rotate(0deg);
         max-width: 115px;
-        top: 50%;
-        left: 100px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .losange-photo img {
+        transform: rotate(0deg) scale(1.1);
     }
 
     h1 {
@@ -300,23 +305,11 @@ ul {
         }
 
     .apropos {
-        padding-left: 45px;
-    }
-}
-
-@media (max-width: 400px) {
-    .losange-photo {
-        max-width: 95px;
-        top: 50%;
-        left: 80px;
-    }
-    h1 {
-        height: 40px;
-        font-size: 2em;
-        }
-
-    .apropos {
-        padding-left: 10px;
+        padding-left: 0px;
     }
 
+    .apropos p {
+        padding-bottom: 15px;
+        padding-right: 10px;
+    }
 }
