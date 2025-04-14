@@ -8,12 +8,13 @@ body {
 }
 
 header {
-    margin-top: 75px;  
-    margin-bottom: 75px;
+    margin-top: 50px;  
+    margin-bottom: 50px;
 }
 
-.apropos {
+.name {
     max-width: 900px;
+    height: 15px;
     margin: auto;
     background-image: url(../Images/ricepaper_v3.png);
     border-radius: 2px;
@@ -34,52 +35,43 @@ h2 {
     padding-bottom: 20px;
     padding-right: 20px;
     color: rgb(8, 5, 2);
+    display: inline-block;
 }
 
-.apropos h2 {
-    padding-left: 165px;
-    padding-top: 10px;
-    
-}
-
-.apropos p {
-    padding-left: 165px;
-    padding-bottom: 15px;
-    padding-right: 25px;
-}
-
-h1 {
-    max-width: 950px;
+.titleName {
+    max-width: 900px;
     height: 65px;
     margin: auto;
     background-image: url(../Images/leaf-textureab.jpg);
     background-repeat:inherit;
-    color: white;
-    font-family: 'Eagle Lake', handwriting;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
-    box-shadow: -2px 5px 0px 1px black;
-    font-size: 3em;
-    border-radius: 20px;
-    text-align: center;
+    border-radius: 2px;
     padding-top: 15px;
     z-index: 1;
     margin-bottom: 5px;
+    position: relative;
+    z-index: 0;
+}
+
+h1 {
+    color: white;
+    font-family: 'Eagle Lake', handwriting;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+    font-size: 3em;
+    position: absolute;
+    left: 45%;
 }
 
 .losange-photo {
-    max-width: 165px;
-    transform: rotate(45deg) translate(-72%, 0%);
+    max-width: 150px;
     overflow: hidden;
     border: 8px solid black;
-    box-shadow: 5px 5px 0px 1px rgb(13, 145, 72);
     border-radius: 2px;
     position: absolute;
-    top: 0; left: 0;
+    top: -120px; left: 50px;
     z-index: 2;
 }
     .losange-photo img {
     max-width: 100%;
-    transform: rotate(-45deg) scale(1.42);
     }
 
 section {
@@ -90,7 +82,7 @@ section {
     }
 
 .gauche-vert {
-    background-image: url(../Images/leaf-texturebb.jpg);
+    background-image: url(../Images/leaf-texturea.jpg);
     max-width: 40%;
     border-radius: 2px;
     
@@ -98,7 +90,7 @@ section {
 
 .gauche-vert p {
     color: white;
-    text-shadow: 1px 2px 1px black;
+    text-shadow: 2px 2px 2px black;
     padding: 0 25px;
     margin-bottom: 25px;
     font-size: 1.2em;
@@ -112,22 +104,22 @@ section {
 .droite-blanc { 
     background-image: url(../Images/ricepaper_v3.png);
     max-width: 60%;
-    z-index: -1;
+    z-index: 0;
+    padding: 15px;
     border-radius: 2px;
-    padding: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 h3 {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     text-transform: uppercase;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
     font-size: 1.3em;
     font-weight: bold;
-    padding: 5px;
+    padding: 15px;
     padding-left: 25px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 0px 10px black;
     z-index: 1;
     margin-bottom: 20px;
 }
@@ -137,7 +129,7 @@ h3 {
 }
 
 .classement p {
-    width: 30%;
+    width: 80%;
 }
 
 .classement img {
@@ -183,6 +175,19 @@ h3 {
     color: rgb(250, 50, 00);
 }
 
+.intro a {
+    color: black;
+}
+
+.intro a:hover {
+    color: rgb(250, 50, 00);
+}
+
+.intro {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
 .Exp-Form {
     display: flex;
 }
@@ -199,7 +204,7 @@ h5 {
 }
 
 .intitu {
-    width: 50%;
+    width: 45%;
 }
 
 .intitu p {
@@ -251,17 +256,17 @@ ul {
 
     .losange-photo {
         max-width: 130px;
-        left: 105px;
+        left: 105px;        
     }
 
     .losange-photo img {
         max-width: 100%;
-        transform: rotate(-45deg) scale(1.45);
+
     }
 
     h1 {
         height: 55px;
-        font-size: 2.6em;
+        font-size: 3em;
     }
 
     .apropos {
@@ -291,8 +296,8 @@ ul {
     .losange-photo {
         transform: rotate(0deg);
         max-width: 115px;
-        top: 10px;
-        left: 10px;
+        top: -105px;
+        left: 20px;
     }
 
     .losange-photo img {
@@ -301,15 +306,11 @@ ul {
 
     h1 {
         height: 48px;
-        font-size: 2.3em;
+        font-size: 1.9em;
         }
 
-    .apropos {
+    .name {
         padding-left: 0px;
-    }
-
-    .apropos p {
-        padding-bottom: 15px;
-        padding-right: 10px;
+        padding-bottom: 0px;
     }
 }
